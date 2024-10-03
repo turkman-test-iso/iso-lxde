@@ -10,7 +10,7 @@ chmod 755 /sbin/init
 ymp repo --update --allow-oem --ignore-gpg
 ymp it xinit xorg-server xterm freetype xauth xkbcomp xkeyboard-config @x11.drivers --no-emerge --allow-oem
 ymp it elogind shadow pipewire wireplumber libtool firefox-installer inxi tzdata fuse fuse2 flatpak --no-emerge --allow-oem
-ymp it @lxde lxde-icon-theme mousepad ristretto nm-applet --no-emerge --allow-oem
+ymp it @lxde openbox libexif lxde-icon-theme mousepad ristretto nm-applet --no-emerge --allow-oem
 ymp it caribou dejavu adwaita-icon-theme gsettings-desktop-schemas libhandy seatd touchegg --no-emerge --allow-oem
 ymp it gnome-icon-theme gnome-themes-standard lightdm lightdm-gtk-greeter --no-emerge --allow-oem
 # fstab add tmpfs
